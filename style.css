@@ -1,0 +1,70 @@
+body {
+  /*font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;*/
+  font-family: serif;
+  color: white;
+  margin: 0;
+  background-color: #4d4d4d;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4d4d4d;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  outline-style: solid;
+  outline-color: black;
+  outline-width: thin;
+}
+
+li {
+  display: inline-block;
+  
+}
+
+li img {
+  display: block;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.gameimg {
+  width: 100%;
+  margin-top: 105px;
+}
+
+.Char {
+  width: 24%;
+  float: left;
+}
+
+.Desc {
+  float: left;
+  word-wrap: break-word;
+  width: 76%;
+  font-size: 1.25em;
+}
+
+.btn {
+  background-color: #7e57c2;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-family: serif;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: #65469c;
+}
+
+.WhereIsMyMacPort {
+  color: #4d4d4d;
+}
+
